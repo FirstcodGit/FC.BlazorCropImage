@@ -1,0 +1,45 @@
+{
+  "version": "1.0",
+  "defaultProvider": "cdnjs",
+  "libraries": [
+    {
+      "library": "cropperjs@1.5.6",
+      "destination": "wwwroot/cropperjs/"
+    },
+    {
+      "library": "jquery@3.5.1",
+      "destination": "wwwroot/jquery/",
+      "files": [
+        "jquery.min.js",
+        "jquery.min.map"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "bootstrap@4.5.0",
+      "destination": "wwwroot/bootstrap/",
+      "files": [
+        "dist/js/bootstrap.min.js",
+        "dist/js/bootstrap.min.js.map"
+      ]
+    },
+    {
+      "library": "popper.js@2.4.0",
+      "destination": "wwwroot/popper.js/",
+      "files": [
+        "umd/popper.min.js",
+        "umd/popper.min.js.map"
+      ]
+    },
+    {
+      "provider": "unpkg",
+      "library": "@popperjs/core@2.4.0",
+      "destination": "wwwroot/@popperjs/core/",
+      "files": [
+        "dist/umd/popper.min.js",
+        "dist/umd/popper.min.js.flow",
+        "dist/umd/popper.min.js.map"
+      ]
+    }
+  ]
+}
